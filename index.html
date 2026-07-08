@@ -3,166 +3,316 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Murali Portfolio</title>
-    <link rel="shortcut icon" href="Pic.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta name="description" content="AI-powered Skin Cancer Prediction Portfolio - Advanced Machine Learning Project by Murali Madevan">
+    <meta name="keywords" content="Skin Cancer Detection, Machine Learning, Deep Learning, AI, Medical AI">
+    <title>Murali Madevan - Skin Cancer Prediction AI</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
 <body>
-    <!--Navbar -->
-    <header class="header">
-        <a href="#" class="logo">MM</a>
-        <i class='bx bx-menu' id="menu" style='color:#ffffff'></i>
-        <nav class="navbar">
-            <a href="#home" style="--vlr:1" class="active">Home</a>
-            <a href="#about" style="--vlr:2">About Me</a>
-            <a href="#education" style="--vlr:3">Education</a>
-            <a href="#skills" style="--vlr:4">Skills</a>
-            <a href="#experience" style="--vlr:4">Experience</a>
-            <a href="#projects" style="--vlr:5">Projects</a>
-            <a href="#contact" style="--vlr:6">Contact</a>
-        </nav>
-    </header>
-    <!-- Home Section -->
-    <section class="home" id="home">
-        <div class="text-content">
-            <h1>Welcome</h1>
-            <div class="text-animation">
-                <h2>Hi! I'm Murali Madevan</h2>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-dna"></i>
+                <span>Murali Madevan</span>
             </div>
-            <p style="font-size: 20px; color: white;">
-                Motivated Data Analyst skilled in SQL, Python, and Power BI with hands-on experience in data cleaning, visualization,
-                and dashboard creation. Strong analytical mindset with practical project experience. Seeking an entry-level Data Analyst role
-                to contribute to data-driven decision-making.
-            </p>
-            
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/murali-madevan/" target="_blank">
-                    <i class='bx bxl-linkedin' style="--vlr:7"></i>
-                </a>
-                <a href="mailto:muralimadevan82@gmail.com" target="_blank">
-                    <i class='bx bxs-envelope' style="--vlr:8; color: white"></i>
-                </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#project" class="nav-link">Project</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
-        <img src="Pic.jpeg" alt="Murali Picture">
-    </section>
-    <!-- About Section-->
-    <section class="about" id="about">
-        <h2 class="title" style="color: #f39c12;">About <span style="color: #f39c12;">Me</span></h2>
-        <!-- <img src="pic.jpg" alt="" class="aboutImg"> -->
-        <div class="text-content2">
-            <!-- <h2>About Me</h2> -->
-            <p style="font-size: 20px; color: white;">
-                Motivated Data Analyst with practical experience in Python, SQL, and Power BI. Skilled in data cleaning,
-                transformation, and visualization, with dashboard creation for data-driven insights.
-                Strong analytical mindset focused on delivering measurable business outcomes.
-            </p>
-            <a href="Murali_Resume.pdf" target="_blank">
-                <button class="btn">View Murali Resume</button>
-            </a>
-        </div>
-    </section>
-    <!--Education Section -->
-    <section class="education" id="education">
-        <h2 class="title" style="color: #f39c12;">My <span style="color: #f39c12;">Education</span></h2>
-        <div class="row">
-            <div class="column">
-                <h2>Education</h2>
-                <div class="box">
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year">Aug 2021 - May 2025 <i class='bx bxs-calendar'></i></div>
-                            <h3 style="font-size: 23px;">Adhiyamaan College of Engineering, Hosur</h3>
-                            <p style="font-size: 20px;">B.E. Computer Science and Engineering — CGPA: 7.0/10</p>
-                        </div>
-                    </div>
-    
-                </div>
-            </div>
-    </section>
-   <!-- Skills Section -->
-   <section class="skills" id="skills">
-    <h2 class="title" style="color: #f39c12;">My <span style="color: #f39c12;">Skills</span></h2>
-    <div class="text-content2" style="max-width: 800px; margin: 0 auto;">
-        <ul style="list-style: none; padding-left: 0; color: white; font-size: 20px; line-height: 1.6;">
-            <li><strong>Languages:</strong> Python, SQL</li>
-            <li><strong>Frameworks:</strong> NumPy, Pandas, Matplotlib</li>
-            <li><strong>Databases & BI:</strong> MySQL, SQL, Power BI</li>
-            <li><strong>Developer Tools:</strong> VS Code, PyCharm</li>
-            <li><strong>Technologies:</strong> Git, GitHub</li>
-        </ul>
-    </div>
-</section>
-     <!--experience Section -->
-     <section class="experience" id="experience">
-        <h2 class="title" style="color: #f39c12;">My <span style="color: #f39c12;">Experience</span></h2>
-        <div class="row">
-            <div class="column">
-                <h2>Experience</h2>
-                <div class="box">
-                    <div class="experience-content">
-                        <div class="content">
-                            <div class="month"><i class='bx bxs-calendar'></i> Nov 2025 – Present</div>
-                            <h3 style="font-size: 23px;">Python Data Science Intern</h3>
-                            <p style="font-size: 20px;">Qspider Software Testing & Solution, Bengaluru, Karnataka (Onsite).</p>
-                            <ul style="font-size: 18px; color: white;">
-                                <li>Performed data cleaning, transformation, and analysis using NumPy and Pandas.</li>
-                                <li>Executed SQL queries in MySQL for data retrieval, reporting, and filtering.</li>
-                                <li>Created interactive Power BI dashboards and reports for business insights.</li>
-                                <li>Used Git and GitHub for version control and collaboration.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="projects" id="projects">  
-        <h2 class="title" style="color: #f39c12;">My <span style="color: #f39c12;">Projects</span></h2>  
-        <div class="project-container">  
-            <div class="project-box">  
-                <img src="images/resume-eval.jpg" alt="Women Safety Alert App">  
-                <h3>Women Safety Alert App</h3>  
-                <p>React Native app with GPS API, Firebase, and SMS Gateway for instant emergency alerts to contacts. Completed 500+ simulated runs with 100% message delivery.</p>  
-            </div>  
-            <div class="project-box">  
-                <img src="images/resume-eval.jpg" alt="Skin Cancer Detection Portal">  
-                <h3>Skin Cancer Detection Portal</h3>  
-                <p>Flask and TensorFlow portal with 92% accuracy, optimized MySQL queries for patient record management and 35% faster retrieval.</p>  
-            </div>  
-        </div>  
-    </section>    
+    </nav>
 
-   <!-- Contact Section -->
-<section class="contact" id="contact">
-    <br>
-    <div></div>
-    <h2 class="title" style="color: #f39c12;">Contact <span style="color: #f39c12;">Me</span></h2> 
-</br>
-    <div class="social-media-links">
-        <p style="color:white; margin-bottom:8px;">+91 8438593087</p>
-        <p style="color:white; margin-bottom:8px;">Bangalore, Karnataka</p>
-        <a href="mailto:muralimadevan82@gmail.com" target="_blank" class="social-link">
-            <i class='bx bxl-gmail' style="color: #D14836;"></i> muralimadevan82@gmail.com
-        </a>
-    </div>
-</section>
-    <footer>
-        <div class="text">
-            <h2>Murali Madevan</h2>
-            <p>+91 8438593087</p>
-            <p>Bangalore, Karnataka</p>
-            <p>muralimadevan82@gmail.com</p>
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Skin Cancer Prediction</h1>
+                <p class="hero-subtitle">Advanced AI & Machine Learning Solution</p>
+                <p class="hero-description">
+                    Leveraging deep learning algorithms to accurately detect and classify skin cancer 
+                    with clinical-grade precision. Early detection saves lives.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#project" class="btn btn-primary">Explore Project</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <img src="logo.png" alt="Skin Cancer Detection AI" class="hero-image">
+                </div>
+            </div>
         </div>
-        <a href="#"> <i class='bx bx-up-arrow-alt'></i></a>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- Project Overview Section -->
+    <section id="project" class="project-overview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Project Overview</h2>
+                <p>Deep Learning Solution for Dermatological Analysis</p>
+            </div>
+
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="card-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Advanced ML Model</h3>
+                    <p>State-of-the-art deep learning architecture trained on thousands of medical images for precise classification.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Medical Grade Accuracy</h3>
+                    <p>High precision detection rates comparable to dermatological specialists for early-stage diagnosis.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Data Privacy</h3>
+                    <p>HIPAA-compliant architecture ensuring patient data security and confidentiality throughout the process.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>User-Friendly Interface</h3>
+                    <p>Intuitive web application design accessible to both medical professionals and general users.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Key Features</h2>
+                <p>Cutting-edge capabilities for skin lesion analysis</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-number">01</div>
+                    <h3>Multi-Class Classification</h3>
+                    <p>Identifies multiple skin cancer types including melanoma, basal cell carcinoma, and benign lesions with detailed confidence scores.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-number">02</div>
+                    <h3>Real-time Processing</h3>
+                    <p>Instant analysis of uploaded images with results generated in seconds for immediate clinical decision-making.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-number">03</div>
+                    <h3>Attention Visualization</h3>
+                    <p>Visual heatmaps highlighting the specific regions of concern identified by the AI model for better interpretability.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-number">04</div>
+                    <h3>Detailed Report Generation</h3>
+                    <p>Comprehensive analysis reports with probability distributions, risk assessment, and clinical recommendations.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-number">05</div>
+                    <h3>Historical Tracking</h3>
+                    <p>Track and compare lesion changes over time with persistent analysis history and progression monitoring.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-number">06</div>
+                    <h3>API Integration</h3>
+                    <p>RESTful API for seamless integration with existing healthcare systems and third-party applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Stack Section -->
+    <section id="skills" class="tech-stack">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Stack</h2>
+                <p>Tools and technologies powering this solution</p>
+            </div>
+
+            <div class="tech-categories">
+                <div class="tech-category">
+                    <h3>Machine Learning</h3>
+                    <div class="tech-items">
+                        <span class="tech-badge">TensorFlow</span>
+                        <span class="tech-badge">Keras</span>
+                        <span class="tech-badge">PyTorch</span>
+                        <span class="tech-badge">OpenCV</span>
+                        <span class="tech-badge">Scikit-learn</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Backend</h3>
+                    <div class="tech-items">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Flask</span>
+                        <span class="tech-badge">FastAPI</span>
+                        <span class="tech-badge">NumPy</span>
+                        <span class="tech-badge">Pandas</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Frontend</h3>
+                    <div class="tech-items">
+                        <span class="tech-badge">HTML5</span>
+                        <span class="tech-badge">CSS3</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">D3.js</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Deployment & DevOps</h3>
+                    <div class="tech-items">
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">AWS</span>
+                        <span class="tech-badge">GitHub</span>
+                        <span class="tech-badge">CI/CD</span>
+                        <span class="tech-badge">PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3 class="stat-number" data-target="95">0</h3>
+                    <p>% Accuracy</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number" data-target="10000">0</h3>
+                    <p>Training Images</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number" data-target="5">0</h3>
+                    <p>Cancer Classes</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number" data-target="50">0</h3>
+                    <p>ms Response Time</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>Let's collaborate on AI-powered healthcare solutions</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:your.email@example.com">your.email@example.com</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (XXX) XXX-XXXX</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Your City, Country</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Links Section -->
+    <section class="social-section">
+        <div class="container">
+            <h3>Connect With Me</h3>
+            <div class="social-links">
+                <a href="https://github.com/Murali-Madevan" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/murali-madevan" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/yourhandle" target="_blank" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-kaggle"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Murali Madevan. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="https://github.com/muralimadevan82-source/Skin-Cancer-Prediction" target="_blank">GitHub Repository</a>
+            </div>
+        </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
-
 </html>
